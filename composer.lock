@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d993780eaf63d21ca1e0e37d3550886c",
-    "content-hash": "d9c3a6848fe76cdc85d13e672da32294",
+    "hash": "ece5504a672add10b8ddc43e109c8ae2",
+    "content-hash": "84787ad6eade8c542556e52fae33b26b",
     "packages": [
         {
             "name": "0523/iframework-kernel",
