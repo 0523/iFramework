@@ -13,12 +13,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/0523/iFramework-Kernel.git",
-                "reference": "6ba1f745c9b019e7c7beadb7c74d39dec8f533e6"
+                "reference": "ced714a72158b7da7dce933ba34597c19559dad5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/0523/iFramework-Kernel/zipball/6ba1f745c9b019e7c7beadb7c74d39dec8f533e6",
-                "reference": "6ba1f745c9b019e7c7beadb7c74d39dec8f533e6",
+                "url": "https://api.github.com/repos/0523/iFramework-Kernel/zipball/ced714a72158b7da7dce933ba34597c19559dad5",
+                "reference": "ced714a72158b7da7dce933ba34597c19559dad5",
                 "shasum": ""
             },
             "require": {
@@ -131,7 +131,7 @@
                 "issues": "https://github.com/0523/iFramework-Kernel/issues",
                 "source": "https://github.com/0523/iFramework-Kernel"
             },
-            "time": "2016-03-29 19:34:20"
+            "time": "2016-03-30 04:45:25"
         },
         {
             "name": "classpreloader/classpreloader",
