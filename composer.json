@@ -32,8 +32,11 @@
 			"database"
 		],
 		"psr-4": {
-			"AppIlluminate\\": "AppIlluminate/",
-			"App\\": "app/"
+			"App\\": "../app/",
+			"Driver\\Cla\\": "../driver/Cla/",
+			"Exe\\": "../exe/",
+			"Gm\\": "../gm/",
+			"Hm\\": "../hm/"
 		}
 	},
 	"autoload-dev": {
