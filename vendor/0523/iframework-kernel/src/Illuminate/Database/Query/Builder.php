@@ -1458,6 +1458,13 @@ class Builder
      */
     protected function runSelect()
     {
+        /**
+         * 允许使用自定义函数 sql_select_cache 缓存查询
+         */
+        if (function_exists('sql_select_cache')) {
+            return sql_select_cache($this, ! $this->useWritePdo);
+        }
+
         return $this->connection->select($this->toSql(), $this->getBindings(), ! $this->useWritePdo);
     }
 
@@ -1870,6 +1877,13 @@ class Builder
         // is the same type of result returned by the raw connection instance.
         $bindings = $this->cleanBindings($bindings);
 
+        /**
+         * 允许使用自定义函数 sql_before_insert
+         */
+        if (function_exists('sql_before_insert')) {
+            sql_before_insert($this, $sql, $bindings);
+        }
+
         return $this->connection->insert($sql, $bindings);
     }
 
@@ -1900,6 +1914,13 @@ class Builder
         $bindings = array_values(array_merge($values, $this->getBindings()));
 
         $sql = $this->grammar->compileUpdate($this, $values);
+
+        /**
+         * 允许使用自定义函数 sql_before_update
+         */
+        if (function_exists('sql_before_update')) {
+            sql_before_update($this, $sql, $bindings);
+        }
 
         return $this->connection->update($sql, $this->cleanBindings($bindings));
     }
