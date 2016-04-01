@@ -18,7 +18,9 @@
 	},
 	"require": {
 		"php": ">=5.5.0",
-		"0523/iframework-kernel": "dev-develop"
+		"0523/iframework-kernel": "dev-develop",
+		"barryvdh/laravel-debugbar": "2.1.*",
+		"mews/captcha": "2.1.*"
 	},
 	"require-dev": {
 		"fzaninotto/faker": "~1.4",
