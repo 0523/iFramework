@@ -190,7 +190,7 @@ return array(
     'Driver\\Cla\\BaseModelTraits\\MagicCall' => $baseDir . '/../driver/Cla/BaseModelTraits/MagicCall.php',
     'Driver\\Cla\\BaseModelTraits\\MagicConstruct' => $baseDir . '/../driver/Cla/BaseModelTraits/MagicConstruct.php',
     'Driver\\Cla\\BaseModelTraits\\MagicPinyin' => $baseDir . '/../driver/Cla/BaseModelTraits/MagicPinyin.php',
-    'Driver\\Cla\\BaseModelTraits\\MagicRelationMethod' => $baseDir . '/../driver/Cla/BaseModelTraits/RelationMethod.php',
+    'Driver\\Cla\\BaseModelTraits\\MagicRelationMethod' => $baseDir . '/../driver/Cla/BaseModelTraits/MagicRelationMethod.php',
     'Driver\\Cla\\BaseModelTraits\\MagicTsvector' => $baseDir . '/../driver/Cla/BaseModelTraits/MagicTsvector.php',
     'Exe\\Pub\\Login\\LoginMod' => $baseDir . '/../exe/Pub/Login/LoginMod.php',
     'Exe\\Pub\\Login\\StaExe' => $baseDir . '/../exe/Pub/Login/StaExe.php',
