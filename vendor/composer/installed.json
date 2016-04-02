@@ -3330,12 +3330,12 @@
         "source": {
             "type": "git",
             "url": "https://github.com/0523/iFramework-Kernel.git",
-            "reference": "92412303f307529eab5acae1f71a0aaee53b8e68"
+            "reference": "8bbe5ee55ad6cc692e7044761474337e5b14e0a2"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/0523/iFramework-Kernel/zipball/92412303f307529eab5acae1f71a0aaee53b8e68",
-            "reference": "92412303f307529eab5acae1f71a0aaee53b8e68",
+            "url": "https://api.github.com/repos/0523/iFramework-Kernel/zipball/8bbe5ee55ad6cc692e7044761474337e5b14e0a2",
+            "reference": "8bbe5ee55ad6cc692e7044761474337e5b14e0a2",
             "shasum": ""
         },
         "require": {
@@ -3416,7 +3416,7 @@
             "symfony/css-selector": "Required to use some of the crawler integration testing tools (2.8.*|3.0.*).",
             "symfony/dom-crawler": "Required to use most of the crawler integration testing tools (2.8.*|3.0.*)."
         },
-        "time": "2016-04-01 05:16:28",
+        "time": "2016-04-02 10:18:21",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
