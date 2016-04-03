@@ -21,7 +21,8 @@
 		"0523/iframework-kernel": "dev-develop",
 		"barryvdh/laravel-debugbar": "2.1.*",
 		"aura/sqlquery": "2.6.*",
-		"mews/captcha": "2.1.*"
+		"mews/captcha": "2.1.*",
+		"maatwebsite/excel": "2.1.*"
 	},
 	"require-dev": {
 		"fzaninotto/faker": "~1.4",
