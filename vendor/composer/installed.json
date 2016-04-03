@@ -3324,18 +3324,84 @@
         ]
     },
     {
+        "name": "aura/sqlquery",
+        "version": "2.6.0",
+        "version_normalized": "2.6.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/auraphp/Aura.SqlQuery.git",
+            "reference": "f87f36785d1f6303996c1ac705b0f26a4d8785c0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://packagist.phpcomposer.com/files/auraphp/Aura.SqlQuery/f87f36785d1f6303996c1ac705b0f26a4d8785c0.zip",
+            "reference": "f87f36785d1f6303996c1ac705b0f26a4d8785c0",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "suggest": {
+            "aura/sql": "Provides an extension to the native PDO along with a profiler and connection locator. Use version 2.*."
+        },
+        "time": "2015-11-09 15:38:26",
+        "type": "library",
+        "extra": {
+            "aura": {
+                "type": "library"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Aura\\SqlQuery\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-2-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Aura.SqlQuery Contributors",
+                "homepage": "https://github.com/auraphp/Aura.SqlQuery/contributors"
+            }
+        ],
+        "description": "Object-oriented query builders for MySQL, Postgres, SQLite, and SQLServer; can be used with any database connection library.",
+        "homepage": "https://github.com/auraphp/Aura.SqlQuery",
+        "keywords": [
+            "database",
+            "db",
+            "delete",
+            "dml",
+            "insert",
+            "mysql",
+            "pdo",
+            "pgsql",
+            "postgres",
+            "postgresql",
+            "query",
+            "select",
+            "sql",
+            "sql server",
+            "sqlite",
+            "sqlserver",
+            "update"
+        ]
+    },
+    {
         "name": "0523/iframework-kernel",
         "version": "dev-develop",
         "version_normalized": "dev-develop",
         "source": {
             "type": "git",
             "url": "https://github.com/0523/iFramework-Kernel.git",
-            "reference": "06d7848451fa2976cbd23ae41de238117b005993"
+            "reference": "b890244a9c7868382d43836856415fb4fa93bc0d"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/0523/iFramework-Kernel/zipball/06d7848451fa2976cbd23ae41de238117b005993",
-            "reference": "06d7848451fa2976cbd23ae41de238117b005993",
+            "url": "https://api.github.com/repos/0523/iFramework-Kernel/zipball/b890244a9c7868382d43836856415fb4fa93bc0d",
+            "reference": "b890244a9c7868382d43836856415fb4fa93bc0d",
             "shasum": ""
         },
         "require": {
@@ -3416,7 +3482,7 @@
             "symfony/css-selector": "Required to use some of the crawler integration testing tools (2.8.*|3.0.*).",
             "symfony/dom-crawler": "Required to use most of the crawler integration testing tools (2.8.*|3.0.*)."
         },
-        "time": "2016-04-02 22:47:33",
+        "time": "2016-04-03 04:29:39",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -3450,71 +3516,5 @@
             "issues": "https://github.com/0523/iFramework-Kernel/issues",
             "source": "https://github.com/0523/iFramework-Kernel"
         }
-    },
-    {
-        "name": "aura/sqlquery",
-        "version": "2.6.0",
-        "version_normalized": "2.6.0.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/auraphp/Aura.SqlQuery.git",
-            "reference": "f87f36785d1f6303996c1ac705b0f26a4d8785c0"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://packagist.phpcomposer.com/files/auraphp/Aura.SqlQuery/f87f36785d1f6303996c1ac705b0f26a4d8785c0.zip",
-            "reference": "f87f36785d1f6303996c1ac705b0f26a4d8785c0",
-            "shasum": ""
-        },
-        "require": {
-            "php": ">=5.3.0"
-        },
-        "suggest": {
-            "aura/sql": "Provides an extension to the native PDO along with a profiler and connection locator. Use version 2.*."
-        },
-        "time": "2015-11-09 15:38:26",
-        "type": "library",
-        "extra": {
-            "aura": {
-                "type": "library"
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "Aura\\SqlQuery\\": "src/"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "BSD-2-Clause"
-        ],
-        "authors": [
-            {
-                "name": "Aura.SqlQuery Contributors",
-                "homepage": "https://github.com/auraphp/Aura.SqlQuery/contributors"
-            }
-        ],
-        "description": "Object-oriented query builders for MySQL, Postgres, SQLite, and SQLServer; can be used with any database connection library.",
-        "homepage": "https://github.com/auraphp/Aura.SqlQuery",
-        "keywords": [
-            "database",
-            "db",
-            "delete",
-            "dml",
-            "insert",
-            "mysql",
-            "pdo",
-            "pgsql",
-            "postgres",
-            "postgresql",
-            "query",
-            "select",
-            "sql",
-            "sql server",
-            "sqlite",
-            "sqlserver",
-            "update"
-        ]
     }
 ]

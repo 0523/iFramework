@@ -13,12 +13,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/0523/iFramework-Kernel.git",
-                "reference": "06d7848451fa2976cbd23ae41de238117b005993"
+                "reference": "b890244a9c7868382d43836856415fb4fa93bc0d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/0523/iFramework-Kernel/zipball/06d7848451fa2976cbd23ae41de238117b005993",
-                "reference": "06d7848451fa2976cbd23ae41de238117b005993",
+                "url": "https://api.github.com/repos/0523/iFramework-Kernel/zipball/b890244a9c7868382d43836856415fb4fa93bc0d",
+                "reference": "b890244a9c7868382d43836856415fb4fa93bc0d",
                 "shasum": ""
             },
             "require": {
@@ -131,7 +131,7 @@
                 "issues": "https://github.com/0523/iFramework-Kernel/issues",
                 "source": "https://github.com/0523/iFramework-Kernel"
             },
-            "time": "2016-04-02 22:47:33"
+            "time": "2016-04-03 04:29:39"
         },
         {
             "name": "aura/sqlquery",
