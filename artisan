@@ -13,14 +13,14 @@
 |
 */
 
-if (is_dir(__DIR__.'/../driver/bootstrap')) {
-    require __DIR__.'/../driver/bootstrap/autoload.php';
+if (is_dir(__DIR__.'/../bootstrap')) {
+    require __DIR__.'/../bootstrap/autoload.php';
 
-    $app = require_once __DIR__.'/../driver/bootstrap/app.php';
+    $app = require_once __DIR__.'/../bootstrap/app.php';
 } else {
-    require __DIR__.'/driver/bootstrap/autoload.php';
+    require __DIR__.'/bootstrap/autoload.php';
 
-    $app = require_once __DIR__.'/driver/bootstrap/app.php';
+    $app = require_once __DIR__.'/bootstrap/app.php';
 }
 
 /*
