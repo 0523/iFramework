@@ -1529,6 +1529,7 @@ return array(
     'Monolog\\Handler\\CouchDBHandler' => $vendorDir . '/monolog/monolog/src/Monolog/Handler/CouchDBHandler.php',
     'Monolog\\Handler\\CubeHandler' => $vendorDir . '/monolog/monolog/src/Monolog/Handler/CubeHandler.php',
     'Monolog\\Handler\\Curl\\Util' => $vendorDir . '/monolog/monolog/src/Monolog/Handler/Curl/Util.php',
+    'Monolog\\Handler\\DeduplicationHandler' => $vendorDir . '/monolog/monolog/src/Monolog/Handler/DeduplicationHandler.php',
     'Monolog\\Handler\\DoctrineCouchDBHandler' => $vendorDir . '/monolog/monolog/src/Monolog/Handler/DoctrineCouchDBHandler.php',
     'Monolog\\Handler\\DynamoDbHandler' => $vendorDir . '/monolog/monolog/src/Monolog/Handler/DynamoDbHandler.php',
     'Monolog\\Handler\\ElasticSearchHandler' => $vendorDir . '/monolog/monolog/src/Monolog/Handler/ElasticSearchHandler.php',

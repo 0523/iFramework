@@ -13,12 +13,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/0523/iFramework-Kernel.git",
-                "reference": "d728fc11b7dfcbdc801d02ddd8f09d1d75457f06"
+                "reference": "897287ed83eeb6c974dc4201afdbd63558e3f46e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/0523/iFramework-Kernel/zipball/d728fc11b7dfcbdc801d02ddd8f09d1d75457f06",
-                "reference": "d728fc11b7dfcbdc801d02ddd8f09d1d75457f06",
+                "url": "https://api.github.com/repos/0523/iFramework-Kernel/zipball/897287ed83eeb6c974dc4201afdbd63558e3f46e",
+                "reference": "897287ed83eeb6c974dc4201afdbd63558e3f46e",
                 "shasum": ""
             },
             "require": {
@@ -131,7 +131,7 @@
                 "issues": "https://github.com/0523/iFramework-Kernel/issues",
                 "source": "https://github.com/0523/iFramework-Kernel"
             },
-            "time": "2016-04-04 22:22:46"
+            "time": "2016-04-13 00:00:25"
         },
         {
             "name": "aura/sqlquery",
@@ -941,16 +941,16 @@
         },
         {
             "name": "monolog/monolog",
-            "version": "1.18.2",
+            "version": "1.19.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "064b38c16790249488e7a8b987acf1c9d7383c09"
+                "reference": "5f56ed5212dc509c8dc8caeba2715732abb32dbf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://packagist.phpcomposer.com/files/Seldaek/monolog/064b38c16790249488e7a8b987acf1c9d7383c09.zip",
-                "reference": "064b38c16790249488e7a8b987acf1c9d7383c09",
+                "url": "https://packagist.phpcomposer.com/files/Seldaek/monolog/5f56ed5212dc509c8dc8caeba2715732abb32dbf.zip",
+                "reference": "5f56ed5212dc509c8dc8caeba2715732abb32dbf",
                 "shasum": ""
             },
             "require": {
@@ -1015,7 +1015,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2016-04-02 13:12:58"
+            "time": "2016-04-12 18:29:35"
         },
         {
             "name": "mtdowling/cron-expression",
