@@ -5,6 +5,12 @@
     "keywords": [],
     "homepage": "https://symfony.com",
     "license": "MIT",
+    "repositories": {
+        "symfony/debug": {
+            "type": "vcs",
+            "url": "https://github.com/0523/symfony-debug"
+        }
+    },
     "authors": [
         {
             "name": "Fabien Potencier",
@@ -19,7 +25,7 @@
         "php": ">=5.5.9",
         "symfony/event-dispatcher": "~2.8|~3.0",
         "symfony/http-foundation": "~2.8|~3.0",
-        "symfony/debug": "~2.8|~3.0",
+        "symfony/debug": "3.0.7",
         "psr/log": "~1.0"
     },
     "require-dev": {

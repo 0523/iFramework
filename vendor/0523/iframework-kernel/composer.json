@@ -3,6 +3,12 @@
     "description": "The iFramework Kernel",
     "keywords": ["iframework", "kernel"],
     "license": "MIT",
+    "repositories": {
+        "symfony/debug": {
+            "type": "vcs",
+            "url": "https://github.com/0523/symfony-debug"
+        }
+    },
     "homepage": "https://github.com/0523/iFramework-Kernel",
     "support": {
         "issues": "https://github.com/0523/iFramework-Kernel/issues",
@@ -29,7 +35,7 @@
         "psy/psysh": "0.7.*",
         "swiftmailer/swiftmailer": "~5.1",
         "symfony/console": "2.8.*|3.0.*",
-        "symfony/debug": "2.8.*|3.0.*",
+        "symfony/debug": "3.0.7",
         "symfony/finder": "2.8.*|3.0.*",
         "symfony/http-foundation": "2.8.*|3.0.*",
         "symfony/http-kernel": "2.8.*|3.0.*",
