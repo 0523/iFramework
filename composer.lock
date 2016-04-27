@@ -13,12 +13,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/0523/iFramework-Kernel.git",
-                "reference": "422657b2d17530d8b24839d66249186150d3e2a2"
+                "reference": "341067c1287fd0f12c80a011e6f6193b88e7efa1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/0523/iFramework-Kernel/zipball/422657b2d17530d8b24839d66249186150d3e2a2",
-                "reference": "422657b2d17530d8b24839d66249186150d3e2a2",
+                "url": "https://api.github.com/repos/0523/iFramework-Kernel/zipball/341067c1287fd0f12c80a011e6f6193b88e7efa1",
+                "reference": "341067c1287fd0f12c80a011e6f6193b88e7efa1",
                 "shasum": ""
             },
             "require": {
@@ -131,7 +131,7 @@
                 "issues": "https://github.com/0523/iFramework-Kernel/issues",
                 "source": "https://github.com/0523/iFramework-Kernel"
             },
-            "time": "2016-04-22 00:15:23"
+            "time": "2016-04-27 22:50:32"
         },
         {
             "name": "aura/sqlquery",
@@ -465,16 +465,16 @@
         },
         {
             "name": "intervention/image",
-            "version": "2.3.6",
+            "version": "2.3.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Intervention/image.git",
-                "reference": "e368d262887dbb2fdfaf710880571ede51e9c0e6"
+                "reference": "22088b04728a039bd1fc32f7e79a89a118b78698"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://packagist.phpcomposer.com/files/Intervention/image/e368d262887dbb2fdfaf710880571ede51e9c0e6.zip",
-                "reference": "e368d262887dbb2fdfaf710880571ede51e9c0e6",
+                "url": "https://packagist.phpcomposer.com/files/Intervention/image/22088b04728a039bd1fc32f7e79a89a118b78698.zip",
+                "reference": "22088b04728a039bd1fc32f7e79a89a118b78698",
                 "shasum": ""
             },
             "require": {
@@ -523,7 +523,7 @@
                 "thumbnail",
                 "watermark"
             ],
-            "time": "2016-02-26 18:18:19"
+            "time": "2016-04-26 14:08:40"
         },
         {
             "name": "jakub-onderka/php-console-color",
