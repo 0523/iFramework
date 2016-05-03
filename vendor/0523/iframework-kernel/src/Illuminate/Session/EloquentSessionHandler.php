@@ -152,6 +152,7 @@ class EloquentSessionHandler implements SessionHandlerInterface, ExistenceAwareI
                 'uint'          => $sessionPk,
                 'last_activity' => time(),
                 'user_id'       => $user->getAuthIdentifier(),
+                'user_name'     => '('.$user->username.')'.$user->name,
                 'login_times'   => $user->login_times,
                 'login_time'    => current_timestring(),
                 'activity_long' => 1,
