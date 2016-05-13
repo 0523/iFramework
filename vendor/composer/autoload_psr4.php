@@ -35,7 +35,7 @@ return array(
     'Illuminate\\' => array($vendorDir . '/0523/iframework-kernel/src/Illuminate'),
     'Hm\\' => array($baseDir . '/../hm'),
     'GuzzleHttp\\Psr7\\' => array($vendorDir . '/guzzlehttp/psr7/src'),
-    'Gm\\' => array($baseDir . '/../gm'),
+    'Grid\\' => array($baseDir . '/../grid'),
     'Faker\\' => array($vendorDir . '/fzaninotto/faker/src/Faker'),
     'Exe\\' => array($baseDir . '/../exe'),
     'Dotenv\\' => array($vendorDir . '/vlucas/phpdotenv/src'),
